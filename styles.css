@@ -129,3 +129,63 @@
     width: 15vw;
     
 }
+@media only screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .navbar-1{
+        width: 100vw;
+        margin-top: 2vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        width: 30vw;
+    }
+    .navbar-2{
+        width: 100vw;
+        margin-bottom: 1vh;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .leftwrap{
+        height: fit-content;
+        margin-top: 3vh;
+        justify-content: center;
+        
+    }
+    .leftwrap>h1{
+        font-size: 4.5vw;
+    }
+    .wwd{
+        margin-top: 5vh;
+    }
+    .wwdcon>div{
+        margin-top: 5vh;
+        width: 80vw;
+    }
+    .wwdcon>div>img{
+        width: 12vw;
+    }
+    .yuvaraj{
+        margin-top: 5vh;
+    }
+    .yuvaraj>img{
+        width: 80vw;
+    }
+    .para{
+        padding: 5vw;
+    }
+    .wwdcon{
+        flex-direction: column;
+    }
+    .brandimgdiv{
+        flex-direction: column;
+    }
+    .brandimgdiv>div>img{
+        width: 60vw;
+        margin-top: 5vh;
+    }
+}
